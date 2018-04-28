@@ -15,6 +15,8 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
+    void InitGView(void);
+
 private:
     Ui::Widget *ui;
 };
